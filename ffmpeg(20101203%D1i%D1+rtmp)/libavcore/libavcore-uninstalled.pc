@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}
+includedir=/c/ffmpeg
+
+Name: libavcore
+Description: FFmpeg multimedia shared core utilities library
+Version: 0.9.1
+Requires: libavutil = 50.32.5
+Conflicts:
+Libs: ${libdir}/libavcore.a 
+Cflags: -I${includedir}

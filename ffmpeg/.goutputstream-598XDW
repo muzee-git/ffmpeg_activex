@@ -1,0 +1,4 @@
+SDL_CFLAGS=-I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT
+SDL_LIBS=-I/usr/lib 
+
+./configure --extra-cflags=-fno-common --extra-cflags=-DWIN32 --enable-memalign-hack --enable-shared --disable-static --enable-w32threads --enable-yasm --disable-ssse3 --disable-sse --enable-protocols --disable-encoders --disable-decoders --disable-filters --disable-muxers --disable-demuxers --enable-demuxer=flv --enable-decoder=mp3 --enable-decoder=aac --enable-decoder=h264 --enable-muxer=mp4

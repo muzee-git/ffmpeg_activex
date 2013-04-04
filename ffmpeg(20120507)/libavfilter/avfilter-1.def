@@ -1,0 +1,85 @@
+EXPORTS
+    av_filter_next @1
+    av_vsrc_buffer_add_frame @2
+    avfilter_add_format @3
+    avfilter_af_anull @4 DATA
+    avfilter_all_formats @5
+    avfilter_asink_anullsink @6 DATA
+    avfilter_asrc_anullsrc @7 DATA
+    avfilter_config_links @8
+    avfilter_configuration @9
+    avfilter_default_config_output_link @10
+    avfilter_default_draw_slice @11
+    avfilter_default_end_frame @12
+    avfilter_default_filter_samples @13
+    avfilter_default_get_audio_buffer @14
+    avfilter_default_get_video_buffer @15
+    avfilter_default_query_formats @16
+    avfilter_default_start_frame @17
+    avfilter_draw_slice @18
+    avfilter_end_frame @19
+    avfilter_filter_samples @20
+    avfilter_formats_changeref @21
+    avfilter_formats_ref @22
+    avfilter_formats_unref @23
+    avfilter_free @24
+    avfilter_get_audio_buffer @25
+    avfilter_get_by_name @26
+    avfilter_get_video_buffer @27
+    avfilter_get_video_buffer_ref_from_arrays @28
+    avfilter_graph_add_filter @29
+    avfilter_graph_alloc @30
+    avfilter_graph_config @31
+    avfilter_graph_create_filter @32
+    avfilter_graph_free @33
+    avfilter_graph_get_filter @34
+    avfilter_graph_parse @35
+    avfilter_init_filter @36
+    avfilter_insert_filter @37
+    avfilter_insert_pad @38
+    avfilter_license @39
+    avfilter_link @40
+    avfilter_make_format_list @41
+    avfilter_merge_formats @42
+    avfilter_null_draw_slice @43
+    avfilter_null_end_frame @44
+    avfilter_null_filter_samples @45
+    avfilter_null_get_audio_buffer @46
+    avfilter_null_get_video_buffer @47
+    avfilter_null_start_frame @48
+    avfilter_open @49
+    avfilter_poll_frame @50
+    avfilter_ref_buffer @51
+    avfilter_register @52
+    avfilter_register_all @53
+    avfilter_request_frame @54
+    avfilter_set_common_formats @55
+    avfilter_start_frame @56
+    avfilter_uninit @57
+    avfilter_unref_buffer @58
+    avfilter_version @59
+    avfilter_vf_copy @60 DATA
+    avfilter_vf_crop @61 DATA
+    avfilter_vf_drawbox @62 DATA
+    avfilter_vf_fifo @63 DATA
+    avfilter_vf_format @64 DATA
+    avfilter_vf_gradfun @65 DATA
+    avfilter_vf_hflip @66 DATA
+    avfilter_vf_noformat @67 DATA
+    avfilter_vf_null @68 DATA
+    avfilter_vf_overlay @69 DATA
+    avfilter_vf_pad @70 DATA
+    avfilter_vf_pixdesctest @71 DATA
+    avfilter_vf_scale @72 DATA
+    avfilter_vf_setdar @73 DATA
+    avfilter_vf_setpts @74 DATA
+    avfilter_vf_setsar @75 DATA
+    avfilter_vf_settb @76 DATA
+    avfilter_vf_slicify @77 DATA
+    avfilter_vf_transpose @78 DATA
+    avfilter_vf_unsharp @79 DATA
+    avfilter_vf_vflip @80 DATA
+    avfilter_vsink_nullsink @81 DATA
+    avfilter_vsrc_buffer @82 DATA
+    avfilter_vsrc_color @83 DATA
+    avfilter_vsrc_nullsrc @84 DATA

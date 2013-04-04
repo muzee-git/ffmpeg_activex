@@ -1,0 +1,1 @@
+config:x86:x86_32:generic:mingw32:gcc 4.5.0 (GCC):--extra-cflags='-fno-common -mms-bitfields -DWIN32' --enable-memalign-hack --enable-shared --disable-static --enable-w32threads

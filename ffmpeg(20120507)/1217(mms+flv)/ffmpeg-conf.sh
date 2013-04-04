@@ -1,0 +1,3 @@
+SDL_CFLAGS=/mingw/include 
+SDL_LIBS=/mingw/lib 
+./configure --extra-cflags=-fno-common --extra-cflags=-DWIN32 --enable-memalign-hack --enable-shared --disable-static --enable-w32threads --enable-yasm --disable-ssse3 --disable-sse --disable-mmx2 --disable-mmx --enable-protocols --disable-encoders --disable-decoders --disable-muxers --disable-demuxers --enable-decoder=msmpeg4v1 --enable-decoder=msmpeg4v2 --enable-decoder=msmpeg4v3 --enable-decoder=wmv1 --enable-decoder=wmv2 --enable-decoder=wmv3 --enable-decoder=wmapro --enable-decoder=wmav1 --enable-decoder=wmav2 --enable-demuxer=rtsp --enable-demuxer=sdp --enable-demuxer=asf --enable-decoder=wmavoice --enable-demuxer=flv --enable-decoder=flv --enable-decoder=mp3 --enable-decoder=aac --enable-decoder=h264

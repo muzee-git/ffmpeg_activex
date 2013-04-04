@@ -1,0 +1,135 @@
+EXPORTS
+    av_add_q @1
+    av_adler32_update @2
+    av_aes_crypt @3
+    av_aes_init @4
+    av_aes_size @5 DATA
+    av_base64_decode @6
+    av_base64_encode @7
+    av_bmg_get @8
+    av_compare_mod @9
+    av_compare_ts @10
+    av_crc @11
+    av_crc_get_table @12
+    av_crc_init @13
+    av_d2q @14
+    av_d2str @15
+    av_dbl2ext @16
+    av_dbl2int @17
+    av_default_item_name @18
+    av_des_crypt @19
+    av_des_init @20
+    av_div_q @21
+    av_eval_expr @22
+    av_evaluate_lls @23
+    av_expr_eval @24
+    av_expr_free @25
+    av_expr_parse @26
+    av_expr_parse_and_eval @27
+    av_ext2dbl @28
+    av_fifo_alloc @29
+    av_fifo_drain @30
+    av_fifo_free @31
+    av_fifo_generic_read @32
+    av_fifo_generic_write @33
+    av_fifo_realloc2 @34
+    av_fifo_reset @35
+    av_fifo_size @36
+    av_fifo_space @37
+    av_file_map @38
+    av_file_unmap @39
+    av_find_nearest_q_idx @40
+    av_find_opt @41
+    av_flt2int @42
+    av_free @43
+    av_free_expr @44
+    av_freep @45
+    av_gcd @46
+    av_get_bits_per_pixel @47
+    av_get_cpu_flags @48
+    av_get_double @49
+    av_get_int @50
+    av_get_pix_fmt @51
+    av_get_pix_fmt_string @52
+    av_get_q @53
+    av_get_random_seed @54
+    av_get_string @55
+    av_get_token @56
+    av_init_lls @57
+    av_int2dbl @58
+    av_int2flt @59
+    av_lfg_init @60
+    av_log @61
+    av_log_default_callback @62
+    av_log_get_level @63
+    av_log_level @64 DATA
+    av_log_set_callback @65
+    av_log_set_flags @66
+    av_log_set_level @67
+    av_lzo1x_decode @68
+    av_malloc @69
+    av_mallocz @70
+    av_md5_final @71
+    av_md5_init @72
+    av_md5_size @73 DATA
+    av_md5_sum @74
+    av_md5_update @75
+    av_memcpy_backptr @76
+    av_mul_q @77
+    av_nearer_q @78
+    av_next_option @79
+    av_opt_set_defaults @80
+    av_opt_set_defaults2 @81
+    av_opt_show2 @82
+    av_parse_and_eval_expr @83
+    av_parse_expr @84
+    av_pix_fmt_descriptors @85 DATA
+    av_rc4_crypt @86
+    av_rc4_init @87
+    av_read_image_line @88
+    av_realloc @89
+    av_reduce @90
+    av_rescale @91
+    av_rescale_q @92
+    av_rescale_rnd @93
+    av_reverse @94 DATA
+    av_set_double @95
+    av_set_int @96
+    av_set_options_string @97
+    av_set_q @98
+    av_set_string3 @99
+    av_sha1_final @100
+    av_sha1_init @101
+    av_sha1_size @102 DATA
+    av_sha1_update @103
+    av_sha_final @104
+    av_sha_init @105
+    av_sha_size @106 DATA
+    av_sha_update @107
+    av_solve_lls @108
+    av_strdup @109
+    av_strerror @110
+    av_stristart @111
+    av_stristr @112
+    av_strlcat @113
+    av_strlcatf @114
+    av_strlcpy @115
+    av_strstart @116
+    av_strtod @117
+    av_sub_q @118
+    av_tree_destroy @119
+    av_tree_enumerate @120
+    av_tree_find @121
+    av_tree_insert @122
+    av_tree_node_size @123 DATA
+    av_update_lls @124
+    av_vlog @125
+    av_write_image_line @126
+    avutil_configuration @127
+    avutil_license @128
+    avutil_version @129
+    ff_get_cpu_flags_x86 @130
+    ff_inverse @131 DATA
+    ff_log2_tab @132 DATA
+    ff_random_get_seed @133
+    ff_sqrt_tab @134 DATA

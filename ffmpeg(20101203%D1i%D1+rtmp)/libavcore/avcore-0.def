@@ -1,0 +1,18 @@
+EXPORTS
+    av_check_image_size @1
+    av_fill_image_linesizes @2
+    av_fill_image_max_pixsteps @3
+    av_fill_image_pointers @4
+    av_get_image_linesize @5
+    av_image_check_size @6
+    av_image_copy @7
+    av_image_copy_plane @8
+    av_image_fill_linesizes @9
+    av_image_fill_max_pixsteps @10
+    av_image_fill_pointers @11
+    av_image_get_linesize @12
+    av_parse_video_rate @13
+    av_parse_video_size @14
+    avcore_configuration @15
+    avcore_license @16
+    avcore_version @17

@@ -1,0 +1,55 @@
+EXPORTS
+    ff_M24A @1 DATA
+    ff_M24B @2 DATA
+    ff_M24C @3 DATA
+    ff_bgr2UCoeff @4 DATA
+    ff_bgr2UVOffset @5 DATA
+    ff_bgr2VCoeff @6 DATA
+    ff_bgr2YCoeff @7 DATA
+    ff_bgr2YOffset @8 DATA
+    ff_dither4 @9 DATA
+    ff_dither8 @10 DATA
+    ff_getSwsFunc @11
+    ff_get_unscaled_swscale @12
+    ff_hardcodedcpuflags @13
+    ff_w1111 @14 DATA
+    ff_yuv2rgb_c_init_tables @15
+    ff_yuv2rgb_coeffs @16 DATA
+    ff_yuv2rgb_get_func_ptr @17
+    ff_yuv2rgb_init_mmx @18
+    sws_addVec @19
+    sws_allocVec @20
+    sws_alloc_context @21
+    sws_cloneVec @22
+    sws_context_class @23 DATA
+    sws_convVec @24
+    sws_convertPalette8ToPacked24 @25
+    sws_convertPalette8ToPacked32 @26
+    sws_format_name @27
+    sws_freeContext @28
+    sws_freeFilter @29
+    sws_freeVec @30
+    sws_getCachedContext @31
+    sws_getCoefficients @32
+    sws_getColorspaceDetails @33
+    sws_getConstVec @34
+    sws_getContext @35
+    sws_getDefaultFilter @36
+    sws_getGaussianVec @37
+    sws_getIdentityVec @38
+    sws_init_context @39
+    sws_isSupportedInput @40
+    sws_isSupportedOutput @41
+    sws_normalizeVec @42
+    sws_printVec @43
+    sws_printVec2 @44
+    sws_rgb2rgb_init @45
+    sws_scale @46
+    sws_scaleVec @47
+    sws_scale_ordered @48
+    sws_setColorspaceDetails @49
+    sws_shiftVec @50
+    sws_subVec @51
+    swscale_configuration @52
+    swscale_license @53
+    swscale_version @54
